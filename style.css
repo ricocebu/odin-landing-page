@@ -51,17 +51,21 @@ First body content
 
 .body-container {
     display: flex;
-    justify-content: center;
-    text-align: center;
+    flex-direction: column;
 }
 
 .top-body {
+    display: flex;
+    flex-direction: column;
     padding: 32px;
+    justify-content: center;
+    text-align: center;
 }
 
 .top-body-two {
     display: flex;
     gap: 50px;
+    justify-content: center;
 }
 
 .top-body img {
@@ -72,3 +76,8 @@ First body content
 /*
 Second body content
 */
+
+.bottom-body-one,
+.bottom-body-two {
+    text-align: center;
+}
