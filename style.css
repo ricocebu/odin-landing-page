@@ -30,7 +30,7 @@ footer {
     display: flex;
     justify-content: center;
     gap: 32px;
-    padding-top: px;
+    padding-top: 32px;
 }
 
 .bottom-one h1 {
@@ -43,3 +43,32 @@ footer {
     width: 300px;
     height: 200px;
 }
+
+
+/*
+First body content
+*/
+
+.body-container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.top-body {
+    padding: 32px;
+}
+
+.top-body-two {
+    display: flex;
+    gap: 50px;
+}
+
+.top-body img {
+    width: 100px;
+    height: 100px
+}
+
+/*
+Second body content
+*/
