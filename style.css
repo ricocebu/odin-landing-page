@@ -1,14 +1,17 @@
 body {
-    box-sizing: border-box;
+    background-color: #eeeeee;
+    min-height: 100vh;
     margin: 0;
+    display: flex;
+    flex-direction: column;
+
 }
 
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #eeeeee;
-    padding: 0 8px;
+    background-color: #d3d3d3;
 }
 
 .logo {
@@ -21,4 +24,16 @@ body {
     display: flex;
     align-items: center;
     gap: 24px;
+}
+
+.header-second {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d3d3d3;
+}
+
+.header-image {
+    height: 200px;
+    width: auto;
 }
