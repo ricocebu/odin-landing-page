@@ -1,14 +1,18 @@
-body {
-    
-}
 
-header {
+
+/*
+Header
+*/
+
+header,
+footer {
     background-color: #1F2937;
+    padding: 32px;
 }
 
 .top-header {
-    /*display: flex;
-    justify-content: space-between;*/
+    display: flex;
+    justify-content: space-between;
 }
 
 .top-one {
@@ -16,7 +20,26 @@ header {
     color: #F9FAF8;
 }
 
-.top-two {
+.top-two,
+.bottom-one p {
     font-size: 18px;
     color: #E5E7EB;
+}
+
+.bottom-header {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    padding-top: px;
+}
+
+.bottom-one h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.bottom-two img {
+    width: 300px;
+    height: 200px;
 }
