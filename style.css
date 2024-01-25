@@ -37,5 +37,21 @@ body {
 .header-image {
     height: 200px;
     width: auto;
-    box-sizing: border-box;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.content div {
+    display: flex;
+    flex-shrink: 1;
+}
+
+.content-img {
+    width: 100px;
+    height: 100px;
 }
