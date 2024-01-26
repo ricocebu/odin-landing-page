@@ -3,10 +3,15 @@ body {
     margin: 0;
 }
 
-* {
+/* * {
     border: 1px solid red;
+} */
+.main-content {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
 }
-
 /* HEADER */
 header,
 footer {
@@ -78,22 +83,21 @@ a:hover {
     align-items: center;
     gap: 24px;
     padding: 50px 0 100px 0;
-    flex: 1 0 auto;
 }
 
 .content-image-container {
     display: flex;
-    gap: 32px;
+    gap: 5vw;
 }
 
 .content-image {
-    width: 150px;
+    width: 200px;
 }
 
 .border-sample {
     border: 2px solid green;
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
 }
 
 /* SECOND CONTENT */
@@ -101,11 +105,11 @@ a:hover {
     display: flex;
     justify-content: center;
     background-color: #e5e7eb;
-    padding: 50px 0;
+    padding: 130px 0;
 }
 
 .content-quote {
-    width: 70vh;
+    width: 60vw;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -116,4 +120,37 @@ a:hover {
     font-style: italic;
     color: #1f2937;
     margin: 0;
+}
+
+/* THIRD CONTENT */
+.content-three {
+    display: flex;
+    justify-content: center;
+    margin: 100px 0;
+}
+
+.three-container {
+    background-color: #3882f6;
+    padding: 40px 60px;
+    margin: 10px;
+    border-radius: 10px;
+    display: flex;
+    gap: 5vw;
+    color: #f9faf8;
+    align-items: center;
+}
+
+.three-text h3,
+.three-text p {
+    margin: 5px;
+    padding: 0;
+}
+
+.content-three button {
+    width: 100px;
+    height: 30px;
+    border-radius: 8px;
+    border: 2px solid #f9faf8;
+    background-color: #3882f6;
+    color: #f9faf8;
 }
