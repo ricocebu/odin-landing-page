@@ -95,3 +95,25 @@ a:hover {
     width: 150px;
     height: 150px;
 }
+
+/* SECOND CONTENT */
+.content-two {
+    display: flex;
+    justify-content: center;
+    background-color: #e5e7eb;
+    padding: 50px 0;
+}
+
+.content-quote {
+    width: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.quote p {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    margin: 0;
+}
