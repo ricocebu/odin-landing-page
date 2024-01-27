@@ -73,7 +73,10 @@ a:hover {
     color: #f9faf8;
     font-size: 14px;
     border-radius: 5px;
-    padding: 10px 30px;
+    width: 100px;
+    height: 30px;
+    border-color: #f9faf8;
+    border
 }
 
 /* FIRST CONTENT */
