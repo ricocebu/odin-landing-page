@@ -41,7 +41,7 @@ header {
     background-color: #1f2937;
     justify-content: center;
     align-items: center;
-    padding: 50px 0 100px 0;
+    padding: 50px 0;
     gap: 5vw;
 }
 
@@ -134,6 +134,10 @@ a:hover {
     font-style: italic;
     color: #1f2937;
     margin: 0;
+}
+
+.author {
+    font-weight: bold;
 }
 
 /* THIRD CONTENT */
