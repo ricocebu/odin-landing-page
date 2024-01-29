@@ -3,9 +3,9 @@ body {
     margin: 0;
 }
 
-/* * {
+* {
     border: 1px solid red;
-} */
+}
 .main-content {
     min-height: 100vh;
     display: flex;
@@ -41,7 +41,7 @@ header {
     background-color: #1f2937;
     justify-content: center;
     align-items: center;
-    padding: 100px 0;
+    padding: 50px 0 100px 0;
     gap: 5vw;
 }
 
@@ -49,6 +49,7 @@ header {
     font-size: 48px;
     font-weight: bolder;
     color: #f9faf8;
+    margin: 0;
 }
 
 .secondary-text,
@@ -61,9 +62,15 @@ a:hover {
     text-decoration: none;
 }
 
-.hero-image img,
-.hero-text {
-    width: 600px;
+.main-text,
+.secondary-text {
+    margin: 20px 0;
+    width: 500px;
+}
+
+.hero-image img {
+    width: 300px;
+    height: auto;
 }
 
 .hero-button {
