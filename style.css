@@ -144,7 +144,7 @@ a:hover {
 .content-three {
     display: flex;
     justify-content: center;
-    margin: 100px 0;
+    margin: 50px 0;
 }
 
 .three-container {
@@ -164,13 +164,16 @@ a:hover {
     padding: 0;
 }
 
-.content-three button {
+.content-three .button {
     width: 100px;
     height: 30px;
     border-radius: 8px;
     border: 2px solid #f9faf8;
     background-color: #3882f6;
     color: #f9faf8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /* FOOTER */
